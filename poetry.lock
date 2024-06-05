@@ -642,6 +642,29 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "mlxtend"
+version = "0.23.1"
+description = "Machine Learning Library Extensions"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mlxtend-0.23.1-py3-none-any.whl", hash = "sha256:38cb84f864dfdaa85c1d7e46d374be94d3d0fd0e2662ad278f42ccc4abcc785a"},
+    {file = "mlxtend-0.23.1.tar.gz", hash = "sha256:9f3075e3deac57f4452fee2c1f0befda58a24c1f9c26bed649a2303ca04baa29"},
+]
+
+[package.dependencies]
+joblib = ">=0.13.2"
+matplotlib = ">=3.0.0"
+numpy = ">=1.16.2"
+pandas = ">=0.24.2"
+scikit-learn = ">=1.0.2"
+scipy = ">=1.2.1"
+
+[package.extras]
+docs = ["mkdocs", "mkdocs-bootswatch", "nbconvert", "python-markdown-math"]
+testing = ["pytest"]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 description = "Patch asyncio to allow nested event loops"
@@ -1404,4 +1427,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "66c396e209c458bffebe3f13313c1463488a5d373e4a64a2c8212144de515069"
+content-hash = "cfac9d70fbf1b3373123329fae307d8f223a745e593da6b0323c48816659d2b0"
